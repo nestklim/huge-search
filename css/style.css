@@ -1,0 +1,94 @@
+*, *:after, *:before {
+ box-sizing: border-box;
+}
+html{
+	height: 100%;
+}
+body {
+	min-height: 100%;
+	font: 400 14px/1.3 Arial, sans-serif;
+	background-color: #f1f1f1;
+    color: #c2c2c2;
+    margin: 0;
+}
+.ba-container{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+	padding: 20px 0;
+}
+.ba-search [type="text"]{
+	display: inline-block;
+	border: none;
+	background: none;
+	font-size: 90px;
+	outline: none;
+    font-weight: 700;
+    color: #ec5a62;
+	width: calc(100% - 86px);
+	vertical-align: middle;
+    }
+.ba-search [type="submit"]{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	background: url(../img/magnifier.svg) 50% no-repeat;
+	border: none;
+	cursor: pointer;
+	padding: 0;
+	vertical-align: middle;
+}
+.ba-search [type="submit"]:hover{
+	transform: scale(1.2);
+}
+.ba-sidebars{
+	margin: 0 -10px;
+	padding-top: 20px;
+}
+.ba-sidebars .column{
+	display: inline-block;
+	width: 33%;
+	padding: 0 10px;
+}
+.ba-sidebar-list{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.ba-sidebar-list a{
+	display: block;
+	background-color: rgba(118,117,128,0.05);
+	border-radius: 6px;
+	margin-bottom: 10px;
+	padding: 10px;
+	text-decoration: none;
+	color: #c2c2c2;
+}
+.ba-sidebar-list a:hover{
+	background-color: rgba(118,117,128,0.1);
+	color: #EC5A62;
+}
+.ba-sidebar-list img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.ba-sidebar-list h3{
+	margin: 0;
+	display: inline-block;
+	vertical-align: middle;
+	width: calc(100% - 60px);
+	padding-left: 10px;
+}
+.ba-sidebar-list [src*="avatars"]{
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
