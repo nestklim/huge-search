@@ -44,11 +44,14 @@ body {
 .ba-sidebars{
 	margin: 0 -10px;
 	padding-top: 20px;
+	font-size: 0;
 }
 .ba-sidebars .column{
 	display: inline-block;
-	width: 33%;
+	width: 33.33333%;
 	padding: 0 10px;
+	vertical-align: top;
+	font-size: 14px;
 }
 .ba-sidebar-list{
 	list-style: none;
